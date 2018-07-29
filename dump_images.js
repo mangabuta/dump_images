@@ -174,6 +174,7 @@
 				/* jshint loopfunc: true */
 				(function(index, link) {
 					setTimeout(function() {
+						console.log(link);
 						var e = document.createEvent('MouseEvents');
 						e.initEvent('click', true, true);
 						link.dispatchEvent(e);
