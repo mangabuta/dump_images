@@ -2,7 +2,7 @@
 
 ## ブックマークレットの内容
 ```
-javascript:(function(){var a='https://cdn.rawgit.com/mangabuta/dump_images/master/dump_images.js?'+(new Date()).getTime();var d=document;var e=d.createElement('script');e.charset='utf-8';e.src=a;d.getElementsByTagName('head')[0].appendChild(e);})();
+javascript:(function(){var a='https://cdn.rawgit.com/mangabuta/dump_images/9ff0fa95f65de4577940e035d5fd50a017308c14/dump_images.js?'+(new Date()).getTime();var d=document;var e=d.createElement('script');e.charset='utf-8';e.src=a;d.getElementsByTagName('head')[0].appendChild(e);})();
 ```
 
 ## 説明
