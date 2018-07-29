@@ -173,12 +173,10 @@
 			for (var i = 0; i < links.length; i++) {
 				/* jshint loopfunc: true */
 				(function(index, link) {
-					setTimeout(function() {
-						console.log(link);
-						var e = document.createEvent('MouseEvents');
-						e.initEvent('click', true, true);
-						link.dispatchEvent(e);
-					}, 1000 * i);
+					console.log(link);
+					var e = document.createEvent('MouseEvents');
+					e.initEvent('click', true, true);
+					link.dispatchEvent(e);
 				})(i, links[i]);
 			}
 		});
