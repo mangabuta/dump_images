@@ -3,7 +3,7 @@
 	'use strict';
 
 	// Checks whether the URL is correct. And then, gets the character ID from it.
-	var matches = window.location.href.match(/^http:\/\/hiroba\.dqx\.jp\/sc\/character\/([0-9]+)\/picture/);
+	var matches = window.location.href.match(/^https:\/\/hiroba\.dqx\.jp\/sc\/character\/([0-9]+)\/picture/);
 	if (!matches) {
 		alert('「冒険日誌」の「思い出アルバム」に移動してから、再度本ブックマークを実行してください。');
 		return;
