@@ -5,7 +5,7 @@
 以下の文字列をURLとしてブックマークに登録して利用して下さい。
 
 ```
-javascript:(function(){var a='https://cdn.jsdelivr.net/gh/mangabuta/dump_images@master/dump_images.js?'+(new Date()).getTime();var d=document;var e=d.createElement('script');e.charset='utf-8';e.src=a;d.getElementsByTagName('head')[0].appendChild(e);})();
+javascript:(function(){var a='https://cdn.jsdelivr.net/gh/mangabuta/dump_images@master/dump_images.min.js?'+(new Date()).getTime();var d=document;var e=d.createElement('script');e.charset='utf-8';e.src=a;d.getElementsByTagName('head')[0].appendChild(e);})();
 ```
 
 ## 説明
